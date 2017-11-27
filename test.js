@@ -1,6 +1,6 @@
 const scraper = require('./index.js');
 
-return Promise.resolve().then(() => {
+return Promise.resolve().then(async () => {
 	const reviews = await scraper('euro-car-parts');
 
 	console.log(reviews);
