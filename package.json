@@ -17,6 +17,7 @@
 	"homepage": "https://github.com/freeman-industries/reviews-scraper#readme",
 	"license": "ISC",
 	"dependencies": {
+		"axios": "^0.17.1",
 		"jsdom": "^11.5.1"
 	}
 }
