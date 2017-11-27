@@ -52,6 +52,7 @@ module.exports = async store_slug => {
 	const url = `https://www.reviews.io/company-reviews/store/${store_slug}`;
 
 	const html = await fetchPage(url);
+	const data = await extractStructuredData(html);
 
-	return html;
+	return data;
 }
