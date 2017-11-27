@@ -4,20 +4,19 @@
 	"description": "Scrape data from reviews.co.uk",
 	"main": "index.js",
 	"scripts": {
-	  "test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
-	  "type": "git",
-	  "url": "git+ssh://git@github.com/freeman-industries/reviews-scraper.git"
+		"type": "git",
+		"url": "git+ssh://git@github.com/freeman-industries/reviews-scraper.git"
 	},
 	"author": "Freeman Industries <nabil@instafork.com> (http://freemans.website)",
 	"bugs": {
-	  "url": "https://github.com/freeman-industries/reviews-scraper/issues"
+		"url": "https://github.com/freeman-industries/reviews-scraper/issues"
 	},
 	"homepage": "https://github.com/freeman-industries/reviews-scraper#readme",
 	"license": "ISC",
 	"dependencies": {
-	  
+		"jsdom": "^11.5.1"
 	}
-  }
-  
+}
